@@ -1,0 +1,10 @@
+.cartTitle {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.cartPage {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 80px;
+}
