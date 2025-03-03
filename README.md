@@ -1,43 +1,40 @@
-![](thumbnail.png)
+<h1 align="center"> Projeto UseDev React </h1>
 
-![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
+<p align="center">  </p>
 
-# Título do Curso: SOLID aplicado ao React: melhorando a modularidade e flexibilidade do código
+<div align="center">
 
-Curso prático de SOLID em React, abordando todos os cinco princípios de design — Responsabilidade Única, Aberto/Fechado, Substituição de Liskov, Segregação de Interfaces e Inversão de Dependência. Aprenda a estruturar componentes e hooks customizados de forma modular, reutilizável e testável. Este curso mostra como aplicar os princípios SOLID para criar uma base de código flexível, desacoplada e escalável. Ideal para desenvolvedores que buscam fortalecer a manutenção e qualidade do código em React.
+  <a href="https://github.com/coelhoalexandre/projeto-alura-usedev-react/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <img src="https://img.shields.io/badge/Concluido-lightgreen.svg" alt="Concluido">
 
-## 🔨 Funcionalidades do Projeto
+</div>
 
-O curso abrange a refatoração do Front-end de um e-commerce chamado `useDev`:
+## Sumário
 
-- Listagem de categorias e produtos.
-- Exibição do detalhes do produto.
-- Detalhes do carrinho de compras.
+- [Cursos e Instrutores](#cursos-e-instrutores)
+- [Objetivos do Projeto](#objetivos-do-projeto)
+- [Tecnologias Utilizadas](#tecnolgias-utilizadas)
 
-## ✔️ Técnicas e Tecnologias Utilizadas
+## Cursos e Instrutores
 
-As principais técnicas e tecnologias abordadas são:
+|Curso|Instrutores|
+|---|---|
+|[SOLID aplicado ao React: melhorando a modularidade e flexibilidade do código](https://cursos.alura.com.br/course/solid-aplicado-react-melhorando-modularidade-flexibilidade-codigo)|[**Patrícia Silva**](https://github.com/gss-patricia)|
 
-- `SRP (Responsabilidade Única)`: componentes Button e Input apenas renderizam a label, sem lógica extra.
-- `OCP (Aberto/Fechado)`: extensível para novos comportamentos sem alterar o código base dos componentes.
-- `LSP (Substituição de Liskov)`: componentes podem ser trocados por versões especializadas sem quebrar a lógica.
-- `ISP (Segregação de Interfaces)`: interfaces de props incluem apenas o necessário, mantendo os componentes leves.
-- `DIP (Inversão de Dependência)`: hooks customizados dependem de abstrações, não de implementações concretas.
+## Objetivos do Projeto
+- Aplicar os princípios SOLID para melhorar a modularidade e flexibilidade do código
+- Refatorar componentes React para aderir ao princípio da responsabilidade única
+- Implementar o princípio Open/Closed para criar componentes extensíveis
+- Injetar dependências em serviços para desacoplar dependencias entre modulos e facilitar a testabilidade
+- Criar uma mentalidade de design de software que valoriza a qualidade e manutenção do código
+- Melhorar a organização e clareza dos componentes
 
-## 🎯 Desafios do Curso
+## Tecnolgias Utilizadas
 
-Implementação de práticas avançadas, como:
+1. HTML
+2. CSS
+3. JS
+4. TS
+5. React
+6. Vite
 
-- Estruturar componentes seguindo o princípio de Responsabilidade Única (SRP).
-- Aplicar a Inversão de Dependência (DIP) ao utilizar serviços HTTP abstratos.
-- Extender componentes sem modificar a lógica base, seguindo o princípio Aberto/Fechado (OCP).
-- Desacoplar a lógica do `ProductService` do `useFetch` custom hook.
-
-## 🛠️ Abrir e Rodar o Projeto
-
-Após baixar o projeto, você pode abrir com seu editor de código preferido. Siga estes passos:
-
-- Abra o terminal no diretório do projeto.
-- Execute `npm install` para instalar as dependências.
-- Inicie o servidor de desenvolvimento com `npm run dev`.
-- Acesse `http://localhost:5173` no navegador para ver o projeto ou o endereço que for exibido no terminal.
+Autor: [Alexandre Coelho](https://github.com/coelhoalexandre)
